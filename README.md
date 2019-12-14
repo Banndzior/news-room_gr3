@@ -20,7 +20,7 @@ ng serve -o
 ng g c --skip-tests news-list
 ```
 
-#### Display app-news-list in app.component.html
+#### Display <app-news-list> component in app.component.html
 
 #### Generate news-item component
 
