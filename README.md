@@ -4,6 +4,7 @@
 
 ```javascript
 ng new news-room
+cd news-room
 ```
   
 #### Build application
@@ -11,6 +12,8 @@ ng new news-room
 ```javascript
 ng serve -o
 ```
+
+#### Run Visual Studio Code and open news-room
   
 #### Cleanup all content in app.component.html and save
 
@@ -20,10 +23,12 @@ ng serve -o
 ng g c --skip-tests news-list
 ```
 
-#### Display <app-news-list> component in app.component.html
+#### Render <app-news-list> component in app.component.html
 
 #### Generate news-item component
 
 ```javascript
 ng g c --skip-tests news-item
 ```
+
+#### Implement news-editor component
